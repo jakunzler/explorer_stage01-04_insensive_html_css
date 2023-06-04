@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+/* ###################### Font and Text Definitions ###################### */
+
+    font-size: 62.5%;
+
+    --font-family: 'Mulish', sans-serif;
+
+    --font-size-title-mobile: 3.2rem;
+    --font-size-subtitle-mobile: 2rem;
+    --font-size-text-title-mobile: 2.92rem;
+    --font-size-text-mobile: 1.6rem;
+    --font-size-contact-title-mobile: 3.2rem;
+    --font-size-input-mobile: 1.6rem;
+    --font-size-button-mobile: 1.4rem;
+    --font-size-footer-mobile: 1.94rem;
+
+    --line-height-title-mobile: 4rem;
+    --line-height-subtitle-mobile: 2.5rem;
+    --line-height-text-title-mobile: 3.7rem;
+    --line-height-text-mobile: 2rem;
+    --line-height-contact-title-mobile: 4rem;
+    --line-height-input-mobile: 100%;
+    --line-height-button-mobile: 2.4rem;
+    --line-height-footer-mobile: 2.4rem;
+
+    --font-size-title-desktop: 5.83rem;
+    --font-size-subtitle-desktop: 3.2rem;
+    --font-size-text-title-desktop: 3.53rem;
+    --font-size-text-desktop: 1.94rem;
+    --font-size-contact-title-desktop: 4.2rem;
+    --font-size-input-desktop: 1.6rem;
+    --font-size-button-desktop: 1.4rem;
+    --font-size-footer-desktop: 1.94rem;
+
+    --line-height-title-desktop: 7.3rem;
+    --line-height-subtitle-desktop: 4rem;
+    --line-height-text-title-desktop: 4.4rem;
+    --line-height-text-desktop: 2.4rem;
+    --line-height-contact-title-desktop: 5.3rem;
+    --line-height-input-desktop: 100%;
+    --line-height-button-desktop: 2.4rem;
+    --line-height-footer-desktop: 2.4rem;
+
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+
+    --text-color-title: #B52184;
+    --text-color-subtile: #312D64;
+    --text-color: #312D64;
+    --text-color-button: white;
+    --text-color-footer: white;
+    --form-border-color: #312D64;
+    --rectangle-color: #B52184;
+
+/* ###################### Dimensions Definitions ###################### */
+
+    --max-width-mobile: 43rem;
+
+    --first-container-height-mobile: 100vh;
+
+    --box-content-width-mobile: 35.2rem;
+    
+    --first-box-content-height-desktop: 44.8rem;
+    --second-box-content-height-desktop: 44.8rem;
+    --third-box-content-height-desktop: 44.8rem;
+    
+    --first-box-content-width-desktop: 36.6rem;
+    --second-box-content-width-desktop: 36.6rem;
+    --third-box-content-width-desktop: 36.6rem;
+
+    --box-content-border-radius: 2rem;
+    
+    --arrow-border-width-mobile: 4px;
+    --arrow-border-width-desktop: 4px;
+
+    --arrow-border-radius-mobile: 76rem;
+    --arrow-border-radius-desktop: 76rem;
+
+    --form-height-mobile: 42.2rem;
+    --form-height-desktop: 42.2rem;
+
+    --form-width-mobile: 35.1rem;
+    --form-width-desktop: 59.5rem;
+
+    --form-input-height-mobile: 4.8rem;
+    --form-input-height-desktop: 4.8rem;
+
+    --form-input-width-mobile: 34.8rem;
+    --form-input-width-desktop: 59.2rem;
+
+    --form-text-area-height-mobile: 12.6rem;
+    --form-text-area-height-desktop: 12.6rem;
+
+    --form-text-area-width-mobile: 34.8rem;
+    --form-text-area-width-desktop: 59.2rem;
+
+    --form-button-height-mobile: 4.5rem;
+    --form-button-height-desktop: 4.5rem;
+
+    --form-button-width-mobile: 15.1rem;
+    --form-button-width-desktop: 15.1rem;
+
+    --form-border-width-mobile: 1.5px;
+    --form-border-width-desktop: 1.5px;
+
+    --form-border-radius-mobile: 1.6rem;
+    --form-border-radius-desktop: 1.6rem;
+
+    --footer-height-mobile: 7.8rem;
+    --footer-height-desktop: 7.8rem;
+
+/* ###################### Background Colors Definitions ###################### */
+
+    --section-background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+}
+
+/* ###################### First Container ###################### */
+
+.container01 {
+    height: var(--first-container-height-mobile);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container01_image {
+    width: 36.4rem;
+    height: 37rem;
+
+    margin: 0 auto;
+}
+
+.container01_text {
+    width: 31.1rem;
+    height: 5.9rem;
+
+    margin: 1.7rem auto 3.5rem;
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-size: var(--font-size-title-mobile);
+    font-weight: var(--font-weight-black);
+    line-height: var(--line-height-title-mobile);
+    color: var(--text-color-title);
+}
+
+.container01_text p {
+    font-family: var(--font-family);
+    font-size: var(--font-size-subtitle-mobile);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-text-mobile);
+    color: var(--text-color);
+}
+
+.down_arrow img {
+    width: 5.86rem;
+    height: 10.5rem;
+
+    margin: 0 auto 9.3rem;
+
+    border: 4px solid var(--rectangle-color);
+    border-radius: var(--arrow-border-radius-mobile);
+}
+
+/* ###################### Second Container ###################### */
+
+.container02 {
+    background: var(--section-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container02 > div:nth-child(3) {
+    margin-bottom: 5.6rem;
+}
+
+.box_content {
+    width: var(--box-content-width-mobile);
+    background-color: white;
+
+    margin: 5.3rem auto 0;
+
+    border-radius: var(--box-content-border-radius);
+}
+
+.box_content_image {
+    width: 8rem;
+    height: 8rem;
+
+    margin-top: 2.65rem;
+    margin-left: 2.65rem;
+}
+
+.box_content_text {
+    width: 26.6rem;
+
+    margin-left: 2.65rem;
+    margin-top: 2rem;
+}
+
+.box_content_text h2 {
+    font-family: var(--font-family);
+    font-size: var(--font-size-text-title-mobile);
+    font-weight: var(--font-weight-black);
+    line-height: var(--line-height-text-title-mobile);
+    color: var(--text-color-title);
+}
+
+.box_content_text p {
+    font-family: var(--font-family);
+    font-size: var(--font-size-text-mobile);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-text-mobile);
+    color: var(--text-color);
+
+    margin: 1.5rem 0;
+}
+
+/* ###################### Third Container ###################### */
+
+.container03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    font-family: var(--font-family);
+    font-size: var(--font-size-contact-title-mobile);
+    font-weight: var(--font-weight-black);
+    line-height: var(--line-height-contact-title-mobile);
+    color: var(--text-color-title);
+
+    margin: 7.8rem 0 4.3rem;
+}
+
+.input_box{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    width: var(--form-input-width-mobile);
+    height: var(--form-input-height-mobile);
+    border: var(--form-border-width-mobile) solid var(--form-border-color);
+    border-radius: var(--form-border-radius-mobile);
+}
+
+.input_box input {
+    width: clamp(10rem, 29rem, var(--form-input-width-mobile));
+    height: calc(var(--form-input-height-mobile) - 10px);
+
+    border: none;
+    border-radius: 8px;
+}
+
+.input_box img{
+    padding: 1.2rem 1.2rem 1.2rem 1.4rem;
+}
+
+form :nth-child(3){
+    margin: 2.4rem 0;
+}
+
+.input_box_message {
+    width: var(--form-text-area-width-mobile);
+    height: var(--form-text-area-height-mobile);
+
+    border: var(--form-border-width-mobile) solid var(--form-border-color);
+    border-radius: var(--form-border-radius-mobile);
+}
+
+.input_box_message textarea {
+    width: calc(var(--form-text-area-width-mobile) - 2px);
+    height: calc(var(--form-text-area-height-mobile) - 2px);
+
+    resize: none;
+
+    padding: 5px 0 0 5px;
+    border: none;
+    border-radius: var(--form-border-radius-mobile);
+}
+
+.submit_button {
+    font-weight: var(--font-weight-bold);
+    color: white;
+    border-radius: var(--form-border-radius-mobile);
+    text-transform: uppercase;
+    background: var(--section-background);
+    cursor: pointer;
+
+    padding: 1.6rem 1.5rem;
+    margin: 2.4rem 0 6.5rem;
+    border: none;
+}
+
+.submit_button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.container03 img {
+    display: none;
+}
+
+/* ###################### Footer ###################### */
+
+footer {
+    width: 100%;
+    height: var(--footer-height-mobile);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: var(--font-size-footer-mobile);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-footer-mobile);
+    color: var(--text-color-footer);
+
+    background: var(--section-background);
+}
+
+/* ###################### Media Queries and Key Frames ###################### */
+
+@media (min-width: 430px) {
+    
+/* ###################### First Container ###################### */
+
+    .container01 {
+        height: var(--first-container-height-desktop);
+
+        width: 100%;
+        height: 100vh;
+
+        display: block;
+
+    }
+
+    .container01_image {
+        position: absolute;
+        top: 0;
+        right: 3rem;
+
+        width: 71.94rem;
+        height: 73.23rem;
+
+        margin: 0;
+    }
+
+    .container01_text {
+        width: 55.5rem;
+        height: 7.3rem;
+
+        position: absolute;
+        top: 31.2rem;
+        left: 10.9rem;
+
+        margin: 0;
+    }
+
+    h1 {
+        font-family: var(--font-family);
+        font-size: var(--font-size-title-desktop);
+        font-weight: var(--font-weight-black);
+        line-height: var(--line-height-title-desktop);
+        color: var(--text-color-title);
+    }
+
+    .container01_text p {
+        font-family: var(--font-family);
+        font-size: var(--font-size-subtitle-desktop);
+        font-weight: var(--font-weight-semibold);
+        line-height: var(--line-height-subtitle-desktop);
+        color: var(--text-color);
+    }
+
+    .down_arrow img {
+        width: 5.86rem;
+        height: 10.5rem;
+        
+        position: absolute;
+        top: 59.5rem;
+        left: 10.9rem;
+
+        margin: 0 auto;
+
+        border:  solid var(--rectangle-color);
+        border-radius: 76rem
+    }
+
+    /* ###################### Second Container ###################### */
+
+    .container02 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .container02 > div:nth-child(2) {
+        margin: 0 6rem;
+    }
+    
+    .container02 > div:nth-child(3) {
+        margin: 0;
+    }
+    
+    .box_content{
+        width: var(--first-box-content-width-desktop);
+        height: var(--first-box-content-height-desktop);
+
+        margin: 6.4rem 0;
+    }
+
+    .box_content_image {
+        width: 9.7rem;
+        height: 9.7rem;
+
+        margin-top: 3.2rem;
+        margin-left: 3.2rem;
+    }
+
+    .box_content_text {
+        width: 32.1rem;
+
+        margin-top: 4rem;
+    }
+
+    .box_content_text h2 {
+        font-family: var(--font-family);
+        font-size: var(--font-size-text-title-desktop);
+        font-weight: var(--font-weight-black);
+        line-height: var(--line-height-text-title-desktop);
+        color: var(--text-color-title);
+    }
+
+    .box_content_text p {
+        font-family: var(--font-family);
+        font-size: var(--font-size-text-desktop);
+        font-weight: var(--font-weight-semibold);
+        line-height: var(--line-height-text-desktop);
+        color: var(--text-color);
+    }
+
+    /* ###################### Third Container ###################### */
+
+    .container03 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 0 0 10.9rem;
+    }
+
+    form h2 {
+        font-family: var(--font-family);
+        font-size: var(--font-size-contact-title-desktop);
+        font-weight: var(--font-weight-black);
+        line-height: var(--line-height-contact-title-desktop);
+        color: var(--text-color-title);
+    }
+
+    .input_box {
+        width: var(--form-input-width-desktop);
+        height: var(--form-input-height-desktop);
+        border: var(--form-border-width-desktop) solid var(--form-border-color);
+        border-radius: var(--form-border-radius-desktop);
+
+        margin-top: 1.7rem;
+    }
+
+    .input_box_message {
+        width: var(--form-text-area-width-desktop);
+        height: var(--form-text-area-height-desktop);
+        border: var(--form-border-width-desktop) solid var(--form-border-color);
+
+        margin-top: 1.7rem;
+    }
+
+    .container03 img {
+        display: block;
+    }
+    
+    /* ###################### Footer ###################### */
+
+    footer {
+        width: 100%;
+        height: var(--footer-height-mobile);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: var(--font-size-footer-mobile);
+        font-family: var(--font-family);
+        font-weight: var(--font-weight-semibold);
+        line-height: var(--line-height-footer-mobile);
+        color: var(--text-color-footer);
+
+        background: var(--section-background);
+    }
+
+} 
